@@ -1,11 +1,7 @@
 
 
 from datetime import datetime
-
-
-
-def es_bisiesto(anio):
-    return (anio % 4 == 0 and anio % 100 != 0) or (anio % 400 == 0)
+# TP Integrador Matemáticas 2B
 
 def ingresar_anios():
     anios = []
@@ -46,6 +42,9 @@ def edades_actuales(aniosLista):
 
     return edades_actuales_list
 
+def es_bisiesto(anio):
+    return (anio % 4 == 0 and anio % 100 != 0) or (anio % 400 == 0)
+
 def evaluar_condicione_grupoZ_o_bisiesto(aniosLista):
     
 
@@ -55,8 +54,6 @@ def evaluar_condicione_grupoZ_o_bisiesto(aniosLista):
     elif any(es_bisiesto(año)for año in aniosLista):
         print("Tenemos un año especial")
 
-
-           
 
 
 
