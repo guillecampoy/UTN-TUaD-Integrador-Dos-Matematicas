@@ -46,19 +46,18 @@ def edades_actuales(aniosLista):
 
     return edades_actuales_list
 
-def evaluar_condicione_grupoZ_o_bisiesto(anioslista):
+def evaluar_condicione_grupoZ_o_bisiesto(aniosLista):
     
-    grupoZ = []
-    bisiesto = []
+
+    if(all(año > 2000 for año in aniosLista)):
+        print("Grupo Z")
+        
+    elif any(es_bisiesto(año)for año in aniosLista):
+        print("Tenemos un año especial")
 
 
-    for anio in anioslista:
-        if( anio > 2000):
-           grupoZ.append(anio)
-        elif(es_bisiesto(anio)):
-            bisiesto.append(anio)
-    
-    return grupoZ, bisiesto  
+           
+
 
 
 def producto_cartesiano(aniosLista, edadesLista):
@@ -76,10 +75,7 @@ def main():
     print(f"\nCantidad de años pares: {pares}")
     print(f"Cantidad de años impares: {impares}")
     
-    grupos = evaluar_condicione_grupoZ_o_bisiesto(anios)
-    
-    print("La cantidad de años del grupo Z (mayores a 2000) es ",str(len(grupos[0])),", estos son:", grupos[0])
-    print("La cantidad de años bisiestos, un año especial es ",str(len(grupos[1])),", estos son:", grupos[1]) 
+    evaluar_condicione_grupoZ_o_bisiesto(anios)
 
 
     edades = edades_actuales(anios)
