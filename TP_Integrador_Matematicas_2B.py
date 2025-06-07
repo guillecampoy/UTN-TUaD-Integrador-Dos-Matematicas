@@ -1,6 +1,7 @@
 
 
 from datetime import datetime
+from itertools import product
 # TP Integrador Matemáticas 2B
 
 def ingresar_anios():
@@ -8,11 +9,11 @@ def ingresar_anios():
     for i in range(5):
         while True:  
             try:
-                anio = int(input(f"Ingrese el año de nacimiento del integrante #{i + 1}: "))
-                if (anio <= 0):
+                i = int(input(f"Ingrese el año de nacimiento del integrante #{i + 1}: "))
+                if (i <= 0):
                     print("Error: El año debe ser positivo.")
                     continue
-                anios.append(anio)
+                anios.append(i)
                 break
             except ValueError:
                 print("Error: Ingrese un año válido (ej: 1990).")
@@ -45,7 +46,7 @@ def edades_actuales(aniosLista):
 def es_bisiesto(anio):
     return (anio % 4 == 0 and anio % 100 != 0) or (anio % 400 == 0)
 
-def evaluar_condicione_grupoZ_o_bisiesto(aniosLista):
+def evaluar_condiciones_grupoZ_o_bisiesto(aniosLista):
     
 
     if(all(año > 2000 for año in aniosLista)):
@@ -58,11 +59,7 @@ def evaluar_condicione_grupoZ_o_bisiesto(aniosLista):
 
 
 def producto_cartesiano(aniosLista, edadesLista):
-    resultado = []
-    for anio in aniosLista:
-        for edad in edadesLista:
-            resultado.append((anio, edad))
-    return resultado
+    return list(product(aniosLista, edadesLista))
    
 
 def main():
@@ -72,7 +69,7 @@ def main():
     print(f"\nCantidad de años pares: {pares}")
     print(f"Cantidad de años impares: {impares}")
     
-    evaluar_condicione_grupoZ_o_bisiesto(anios)
+    evaluar_condiciones_grupoZ_o_bisiesto(anios)
 
 
     edades = edades_actuales(anios)
