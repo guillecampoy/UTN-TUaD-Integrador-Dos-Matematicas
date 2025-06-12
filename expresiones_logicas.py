@@ -29,7 +29,7 @@ print(f"Expresión lógica 2: {resultado_2}")
 
 # Expresión lógica 3: Lenguaje natural: "El conjunto E no tiene dígitos en común con el conjunto A."
 # Resultado: {0, 3, 5, 8}
-resultado_3 = E & A
+resultado_3 = E.intersection(A)
 print(f"Expresión lógica 3: {resultado_3}")
 
 # Expresión lógica 4: Lenguaje natural: "El conjunto C tiene al menos un dígito en común con el conjunto D."
