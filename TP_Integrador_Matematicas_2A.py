@@ -50,10 +50,6 @@ def suma_digitos(lista):
         print(f"La suma de los digitos del DNI {dni} es de: {suma}")
     input("Presione enter para continuar...")
 
-
-def expresiones_logicas(lista_conjunto):
-    pass
-
 def main():
     lista = []
     lista_conjunto = []
@@ -66,7 +62,6 @@ def main():
         print("2. Calculo de conjuntos")
         print("3. Conteo de frecuencia")
         print("4. Suma de digitos")
-        print("5. Expresiones lógicas")
         print("0. Salir")
         opcion = input("Seleccione una opción: ")
 
@@ -88,8 +83,6 @@ def main():
                 suma_digitos(lista)
             else:
                 print("Debe ingresar primero algún documento")
-        elif (opcion == "5"):
-            pass
         elif (opcion == "0"):
             print("Hasta luego!")
             break
