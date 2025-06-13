@@ -41,7 +41,7 @@ Operaciones con DNIs
 
 ---
 
-## 🧠 Fundamentos Teóricos (WIP)
+## 🧠 Fundamentos Teóricos
 
 Este trabajo toma como referencia los siguientes ejes teóricos del material provisto por la UTN:
 
@@ -64,9 +64,11 @@ Este trabajo toma como referencia los siguientes ejes teóricos del material pro
 
 ---
 
-## 📁 Archivos del proyecto (WIP)
+## 📁 Archivos del proyecto
 
-- `main.py` → código fuente principal (a completar)
+- `TP_Integrador_Matematicas_2A.py` → Operaciones con DNIs
+- `TP_Integrador_Matematicas_2B.py` → Operaciones con años de nacimiento
+- `expresiones_logicas.py` → expresiones lógicas
 - `docs/criterios-evaluacion.pdf` → criterios oficiales de la cátedra
 - `README.md` → este archivo
 
