@@ -69,7 +69,7 @@ Este trabajo toma como referencia los siguientes ejes teóricos del material pro
 - `TP_Integrador_Matematicas_2A.py` → Operaciones con DNIs
 - `TP_Integrador_Matematicas_2B.py` → Operaciones con años de nacimiento
 - `expresiones_logicas.py` → expresiones lógicas
-- `docs/Nicolas-Alberto-Colman_Macarena-Cantoni_Santiago-Caiciia-Massello_Luis-Cisneros_Guillermo-Campoy_TP-Integrador-Num2-Mate-Grupo-4.pdf` → Documentación formal del trabajo
+- `doc/Nicolas-Alberto-Colman_Macarena-Cantoni_Santiago-Caiciia-Massello_Luis-Cisneros_Guillermo-Campoy_TP-Integrador-Num2-Mate-Grupo-4.pdf` → Documentación formal del trabajo
 - `README.md` → este archivo
 
 ---
