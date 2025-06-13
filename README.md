@@ -41,7 +41,7 @@ Operaciones con DNIs
 
 ---
 
-## 🧠 Fundamentos Teóricos (WIP)
+## 🧠 Fundamentos Teóricos
 
 Este trabajo toma como referencia los siguientes ejes teóricos del material provisto por la UTN:
 
@@ -52,22 +52,24 @@ Este trabajo toma como referencia los siguientes ejes teóricos del material pro
 
 ---
 
-## 👥 Integrantes y responsabilidades
+## 👥 Integrantes
 
-| Nombre              | Tarea asignada                         | usuario github |
-|---------------------|----------------------------------------|----------------------|
-| Luis Cisneros       | COMPLETE                               | [@luiscisneros356](https://github.com/luiscisneros356) |
-| Macarena Cantoni    | COMPLETE                               | [@maccantoni](https://github.com/maccantoni) |
-| Nicolás Colman      | COMPLETE                               | [@ncolman94](https://github.com/ncolman94) |
-| Santiago Caiciia Massello     | COMPLETE                               | [@scaiciia](https://github.com/scaiciia) |
-| Guillermo Campoy    | COMPLETE                               | [@guillecampoy](https://github.com/guillecampoy) |
+| Nombre              | usuario github |
+|---------------------|----------------------|
+| Luis Cisneros       | [@luiscisneros356](https://github.com/luiscisneros356) |
+| Macarena Cantoni    | [@maccantoni](https://github.com/maccantoni) |
+| Nicolás Colman      | [@ncolman94](https://github.com/ncolman94) |
+| Santiago Caiciia Massello| [@scaiciia](https://github.com/scaiciia) |
+| Guillermo Campoy    | [@guillecampoy](https://github.com/guillecampoy) |
 
 ---
 
-## 📁 Archivos del proyecto (WIP)
+## 📁 Archivos del proyecto
 
-- `main.py` → código fuente principal (a completar)
-- `docs/criterios-evaluacion.pdf` → criterios oficiales de la cátedra
+- `TP_Integrador_Matematicas_2A.py` → Operaciones con DNIs
+- `TP_Integrador_Matematicas_2B.py` → Operaciones con años de nacimiento
+- `expresiones_logicas.py` → expresiones lógicas
+- `docs/Nicolas-Alberto-Colman_Macarena-Cantoni_Santiago-Caiciia-Massello_Luis-Cisneros_Guillermo-Campoy_TP-Integrador-Num2-Mate-Grupo-4.pdf` → Documentación formal del trabajo
 - `README.md` → este archivo
 
 ---
