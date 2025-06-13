@@ -52,15 +52,15 @@ Este trabajo toma como referencia los siguientes ejes teóricos del material pro
 
 ---
 
-## 👥 Integrantes y responsabilidades
+## 👥 Integrantes
 
-| Nombre              | Tarea asignada                         | usuario github |
-|---------------------|----------------------------------------|----------------------|
-| Luis Cisneros       | COMPLETE                               | [@luiscisneros356](https://github.com/luiscisneros356) |
-| Macarena Cantoni    | COMPLETE                               | [@maccantoni](https://github.com/maccantoni) |
-| Nicolás Colman      | COMPLETE                               | [@ncolman94](https://github.com/ncolman94) |
-| Santiago Caiciia Massello     | COMPLETE                               | [@scaiciia](https://github.com/scaiciia) |
-| Guillermo Campoy    | COMPLETE                               | [@guillecampoy](https://github.com/guillecampoy) |
+| Nombre              | usuario github |
+|---------------------|----------------------|
+| Luis Cisneros       | [@luiscisneros356](https://github.com/luiscisneros356) |
+| Macarena Cantoni    | [@maccantoni](https://github.com/maccantoni) |
+| Nicolás Colman      | [@ncolman94](https://github.com/ncolman94) |
+| Santiago Caiciia Massello| [@scaiciia](https://github.com/scaiciia) |
+| Guillermo Campoy    | [@guillecampoy](https://github.com/guillecampoy) |
 
 ---
 
